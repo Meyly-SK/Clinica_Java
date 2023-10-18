@@ -1,0 +1,58 @@
+* {
+	background-color : skyblue;
+}
+.nav {
+    background-color: white;
+    position: relative;
+
+}
+.logo {	
+    width : 200px;
+    height  : 350px;
+}
+#imgNW {
+	width : 150px;
+	height : 100px;
+}
+#navegador ul {
+	list-style-type : none;
+	text-align: center;
+	background-color : blue;
+    padding: 10px 0px 10px 0px;
+}
+#navegador li {
+	display: inline;
+	text-align : center; 
+	margin: 0 10px 0 0;
+}
+#navegador li a {
+	padding : 2px 7px 2px 7px;
+	color: #666;
+	background-color : #eeeeee;
+	border: 1px solid #ccc;
+	text-decoration: none;
+} 
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+.infor {
+    left: 40%;
+    padding: 10px 10px 10px 10px;
+    top: 10px;
+    position: fixed;
+    text-align: center;
+}
+.infor p {
+    display: inline;
+    padding: 0px 5px 0px 5px;
+} 
+.btn_ingresar{
+    position: absolute;
+   right: 20px;   
+   top: 10px;
+
+}
+#pop::backdrop {
+    background-color: rgba(0, 0, 0, .55);
+}
